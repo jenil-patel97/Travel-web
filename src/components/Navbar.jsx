@@ -14,7 +14,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex justify-between items-center h-20 px-4">
+    <div className="flex w-full justify-between items-center h-20 px-4 absolute z-10 text-white">
       <div onClick={handleNav} className="w-[60px] mt-2 md:w-[72px]">
         <img className={logo ? "hidden" : "block"} src={umb} alt="umb" />
       </div>
@@ -48,19 +48,19 @@ const Navbar = () => {
             : "absolute left-[-100%]"
         }
       >
-        <ul>
+        <ul className="text-black font-medium text-center">
           <img className="-mt-3" src={umb} alt="umb" width={59} />
-          <li className="border-b p-4 text-xl">Home</li>
+          <li className="border-b p-4 text-xl mt-4">Home</li>
           <li className="border-b p-4 text-xl">Destinations</li>
           <li className="border-b p-4 text-xl">Travel</li>
           <li className="border-b p-4 text-xl">View</li>
           <li className="border-b p-4 text-xl">Book</li>
         </ul>
-        <div className="flex flex-col">
-          <button className="my-6 p-3 border bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white rounded-md">
+        <div className="flex flex-col text-black font-medium">
+          <button className="my-6 p-3 border bg-gradient-to-r from-[#5651e5] to-[#709dff] rounded-md">
             Search
           </button>
-          <button className="p-3 border bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white rounded-md">
+          <button className="p-3 border bg-gradient-to-r from-[#5651e5] to-[#709dff] rounded-md">
             Account
           </button>
         </div>
