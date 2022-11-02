@@ -11,7 +11,7 @@ function NextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "black" }}
+      style={{ ...style, display: "block", background: "black", marginRight:'-10px' }}
       onClick={onClick}
     />
   );
@@ -22,7 +22,7 @@ function PrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "black" }}
+      style={{ ...style, display: "block", background: "black", marginLeft:'-1rem' }}
       onClick={onClick}
     />
   );
