@@ -8,6 +8,7 @@ import Birds from "../assets/birds.jpg";
 import Shark from "../assets/shark.jpg";
 import Zebra from "../assets/zebra.jpg";
 import Slider from "react-slick";
+import Flag from '../assets/africa.png'
 
 function NextArrow(props) {
   const { className, style, onClick } = props;
@@ -54,8 +55,9 @@ const Gallary = () => {
 
   return (
     <div className="max-w-[1240px] mx-auto md:px-[8rem] md:py-16 px-12 py-2 mb-8">
-      <h2 className="text-center font-dance text-3xl font-bold mb-5">
-        My Recent Photo Gallary From Africa
+      <h2 className="text-center font-dance md:text-3xl text-2xl cursor-default font-bold mb-5 md:ml-[15rem] ml-3 flex">
+        My Recent Photo Gallary From Africa 
+        <img src={Flag} alt="africa" className="w-13 h-12 ml-[1rem] mb-2 -mt-1" />
       </h2>
       <Slider {...settings}>
         <div>

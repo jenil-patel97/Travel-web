@@ -4,7 +4,7 @@ import Lemur from "../assets/lemur.jpg";
 
 const Blog = () => {
   return (
-    <div className="w-full mx-auto md:px-[8rem] md:py-16 px-4 py-2 bg-black md:h-[220vh] h-[270vh]">
+    <div className="w-full mx-auto md:px-[8rem] md:py-16 px-4 py-2 bg-black md:h-[220vh] h-[300vh]">
       <div>
         <p className="text-white font-dance text-center md:text-4xl text-2xl mt-4 cursor-default underline">
           Blog
