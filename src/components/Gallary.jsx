@@ -53,7 +53,7 @@ const Gallary = () => {
   };
 
   return (
-    <div className="max-w-[1240px] mx-auto md:px-[8rem] md:py-16 px-4 py-2">
+    <div className="max-w-[1240px] mx-auto md:px-[8rem] md:py-16 px-12 py-2 mb-8">
       <h2 className="text-center font-dance text-3xl font-bold mb-5">
         My Recent Photo Gallary
       </h2>
