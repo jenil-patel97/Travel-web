@@ -1,9 +1,12 @@
-import Img3 from "../assets/Img-3.jpg";
-import Img4 from "../assets/Img-4.jpg";
-import Img5 from "../assets/Img-5.jpg";
-import Img6 from "../assets/Img-6.jpg";
-import Img7 from "../assets/Img-7.jpg";
-import Img8 from "../assets/Img-8.jpg";
+import Lion from "../assets/Lion.jpg";
+import Elle from "../assets/elle.jpg";
+import Hippo from "../assets/hippo.jpg";
+import Cheetah from "../assets/cheetah.jpg";
+import Whale from "../assets/whale.jpg";
+import Giraffe from "../assets/giraffe.jpg";
+import Birds from "../assets/birds.jpg";
+import Shark from "../assets/shark.jpg";
+import Zebra from "../assets/zebra.jpg";
 import Slider from "react-slick";
 
 function NextArrow(props) {
@@ -11,7 +14,12 @@ function NextArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "black", marginRight:'-10px' }}
+      style={{
+        ...style,
+        display: "block",
+        background: "black",
+        marginRight: "-10px",
+      }}
       onClick={onClick}
     />
   );
@@ -22,7 +30,12 @@ function PrevArrow(props) {
   return (
     <div
       className={className}
-      style={{ ...style, display: "block", background: "black", marginLeft:'-1rem' }}
+      style={{
+        ...style,
+        display: "block",
+        background: "black",
+        marginLeft: "-1rem",
+      }}
       onClick={onClick}
     />
   );
@@ -48,42 +61,63 @@ const Gallary = () => {
         <div>
           <img
             className="md:h-[16rem] md:w-[20rem] h-[6rem] w-[7rem]"
-            src={Img3}
+            src={Lion}
             alt="/"
           />
         </div>
         <div>
           <img
             className="md:h-[16rem] md:w-[20rem] h-[6rem] w-[7rem]"
-            src={Img4}
+            src={Elle}
             alt="/"
           />
         </div>
         <div>
           <img
             className="md:h-[16rem] md:w-[20rem] h-[6rem] w-[7rem]"
-            src={Img5}
+            src={Zebra}
             alt="/"
           />
         </div>
         <div>
           <img
             className="md:h-[16rem] md:w-[20rem] h-[6rem] w-[7rem]"
-            src={Img6}
+            src={Cheetah}
             alt="/"
           />
         </div>
         <div>
           <img
             className="md:h-[16rem] md:w-[20rem] h-[6rem] w-[7rem]"
-            src={Img7}
+            src={Giraffe}
             alt="/"
           />
         </div>
         <div>
           <img
             className="md:h-[16rem] md:w-[20rem] h-[6rem] w-[7rem]"
-            src={Img8}
+            src={Hippo}
+            alt="/"
+          />
+        </div>
+        <div>
+          <img
+            className="md:h-[16rem] md:w-[20rem] h-[6rem] w-[7rem]"
+            src={Birds}
+            alt="/"
+          />
+        </div>
+        <div>
+          <img
+            className="md:h-[16rem] md:w-[20rem] h-[6rem] w-[7rem]"
+            src={Whale}
+            alt="/"
+          />
+        </div>
+        <div>
+          <img
+            className="md:h-[16rem] md:w-[20rem] h-[6rem] w-[7rem]"
+            src={Shark}
             alt="/"
           />
         </div>
