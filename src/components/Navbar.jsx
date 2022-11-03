@@ -21,9 +21,8 @@ const Navbar = () => {
       <ul className="hidden md:flex">
         <li className="p-4 cursor-pointer hover:font-medium ">Home</li>
         <li className="p-4 cursor-pointer hover:font-medium">Destinations</li>
-        <li className="p-4 cursor-pointer hover:font-medium">Travel</li>
-        <li className="p-4 cursor-pointer hover:font-medium">View</li>
-        <li className="p-4 cursor-pointer hover:font-medium">Book</li>
+        <li className="p-4 cursor-pointer hover:font-medium">Gallary</li>
+        <li className="p-4 cursor-pointer hover:font-medium">Blog</li>
       </ul>
       <div className="hidden md:flex gap-2 cursor-pointer">
         <BiSearch size={23} />
@@ -52,9 +51,8 @@ const Navbar = () => {
           <img className="-mt-3" src={umb} alt="umb" width={59} />
           <li className="border-b p-4 text-xl mt-4">Home</li>
           <li className="border-b p-4 text-xl">Destinations</li>
-          <li className="border-b p-4 text-xl">Travel</li>
-          <li className="border-b p-4 text-xl">View</li>
-          <li className="border-b p-4 text-xl">Book</li>
+          <li className="border-b p-4 text-xl">Gallary</li>
+          <li className="border-b p-4 text-xl">Blog</li>
         </ul>
         <div className="flex flex-col text-black font-medium">
           <button className="my-6 p-3 border bg-gradient-to-r from-[#5651e5] to-[#709dff] rounded-md">
